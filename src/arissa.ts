@@ -7,19 +7,19 @@ export class Arissa extends Entity {
 
     this.addComponent(new Animator());
     this.getComponent(Animator).addClip(
-      new AnimationState("Running", { looping: true })
+      new AnimationState("MRun", { looping: true })
     );
     this.getComponent(Animator).addClip(
-      new AnimationState("Idle", { looping: true })
+      new AnimationState("BreathIdle", { looping: true })
     );
   }
   // Play running animation
   playRunning() {
-    this.getComponent(Animator).getClip("Running").play();
+    this.getComponent(Animator).getClip("MRun").play();
   }
 
   // Play idle animation
   playIdle() {
-    this.getComponent(Animator).getClip("Idle").play();
+    this.getComponent(Animator).getClip("BreathIdle").play();
   }
 }

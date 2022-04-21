@@ -8,7 +8,7 @@ engine.addEntity(base);
 
 // Arissa
 const arissa = new Arissa(
-  new GLTFShape("models/ak_player.glb"),
+  new GLTFShape("models/run204.glb"),
   new Transform({
     position: new Vector3(0, 0.05, -0.1),
     scale: new Vector3(0, 0, 0),
