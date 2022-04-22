@@ -9,9 +9,7 @@
   },
   "owner": "",
   "scene": {
-    "parcels": [
-      "0,0"
-    ],
+    "parcels": ["0,0", "1,0", "0,1", "1,1", "1,2", "0,2", "2,0", "2,1", "2,2"],
     "base": "0,0"
   },
   "communications": {
@@ -26,21 +24,5 @@
   },
   "requiredPermissions": [],
   "main": "bin/game.js",
-  "tags": [],
-  "spawnPoints": [
-    {
-      "name": "spawn1",
-      "default": true,
-      "position": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "cameraTarget": {
-        "x": 8,
-        "y": 1,
-        "z": 8
-      }
-    }
-  ]
+  "tags": []
 }
